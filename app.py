@@ -4,7 +4,7 @@ import tkinter
 
 from functions import algorithm
 
-df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\faostat.csv", 
+df = pd.read_csv(r"faostat.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
 # paramenters
