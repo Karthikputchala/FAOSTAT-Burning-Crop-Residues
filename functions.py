@@ -8,13 +8,13 @@ import altair as alt
 
 from plot import plot_line, line_per
 
-df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\faostat.csv", 
+df = pd.read_csv(r"faostat.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
-countries_df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\countries.csv", 
+countries_df = pd.read_csv(r"countries.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
-organizations_df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\organizations.csv", 
+organizations_df = pd.read_csv(r"organizations.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
 unique_area_countries = countries_df.Area.unique().tolist()
