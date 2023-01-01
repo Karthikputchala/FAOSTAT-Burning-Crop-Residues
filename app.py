@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import tkinter
 
 from functions import algorithm
 
