@@ -10,13 +10,13 @@ import altair as alt
 from plot import line_chart, line_and_bar
 
 # read the data
-df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\data\faostat.csv", 
+df = pd.read_csv(r"data/faostat.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
-countries_df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\data\countries.csv", 
+countries_df = pd.read_csv(r"data/countries.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
-organizations_df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\data\organizations.csv", 
+organizations_df = pd.read_csv(r"data/organizations.csv", 
                  encoding='ISO-8859-1', low_memory=False)
 
 # get a list of countries in the data
