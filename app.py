@@ -9,7 +9,7 @@ from functions import to_do
 # read the data
 df = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\data\faostat.csv", 
                  encoding='ISO-8859-1', low_memory=False)
-original_data = pd.read_csv(r"C:\Users\personal\Projects\FAOSTAT\data\Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized).csv", 
+original_data = pd.read_csv(r"data/Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized).csv", 
                  encoding='ISO-8859-1', low_memory=False)
 # get unique list of each category
 countries = df.Area.unique().tolist()
