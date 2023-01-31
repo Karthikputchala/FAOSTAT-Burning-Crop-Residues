@@ -16,7 +16,7 @@ countries = df.Area.unique().tolist()
 items = df.Item.unique().tolist()
 elements = df.Element.unique().tolist()
 year = df.Year.unique().tolist()
-import streamlit_theme
+import streamlit_theme as stt
 
 # Set the theme to dark
 stt.set_theme({'primary': '#152238'})
