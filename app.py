@@ -19,13 +19,13 @@ year = df.Year.unique().tolist()
 import streamlit_theme as stt
 
 # Set the theme to dark
-stt.set_theme({'primary': '#152238'})
 st.set_page_config(layout="wide",initial_sidebar_state = "expanded")
 url = 'https://www.fao.org/faostat/en/#data/GB/visualize'
 view_raw_data = "https://raw.githubusercontent.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/main/data/Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized).csv"
 with st.sidebar:
   st.header("View Raw Data")
   original_data
+stt.set_theme({'primary': '#152238'})
 st.header(':orange[FAOSTAT: Emission from burning Crop Residues]')
 st.caption('Methane (CH4), Nitrous oxide (N2O), and Biomass are the main greenhouse gas (GHG)\
    emissions from burning crop wastes. The FAOSTAT has collected this data from every country\
