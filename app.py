@@ -16,8 +16,17 @@ countries = df.Area.unique().tolist()
 items = df.Item.unique().tolist()
 elements = df.Element.unique().tolist()
 year = df.Year.unique().tolist()
-
-st.set_page_config(layout="wide",initial_sidebar_state = "expanded", theme = "dark")
+def apply_dark_theme():
+    streamlit.components.CssProvider.add_to_head("""
+        <style>
+            .stApp .reportView .reportElement, .stApp .reportView .reportElement:before {
+                background: #2d2d2d !important;
+                color: white !important;
+            }
+        </style>
+    """)
+apply_dark_theme()
+st.set_page_config(layout="wide",initial_sidebar_state = "expanded")
 url = 'https://www.fao.org/faostat/en/#data/GB/visualize'
 view_raw_data = "https://raw.githubusercontent.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/main/data/Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized).csv"
 with st.sidebar:
