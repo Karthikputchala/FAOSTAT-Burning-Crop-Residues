@@ -17,7 +17,7 @@ items = df.Item.unique().tolist()
 elements = df.Element.unique().tolist()
 year = df.Year.unique().tolist()
 def apply_dark_theme():
-    streamlit.components.CssProvider.add_to_head("""
+    st.components.CssProvider.add_to_head("""
         <style>
             .stApp .reportView .reportElement, .stApp .reportView .reportElement:before {
                 background: #2d2d2d !important;
