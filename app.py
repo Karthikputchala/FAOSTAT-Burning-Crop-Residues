@@ -3,7 +3,6 @@
 # import libraries
 import pandas as pd
 import streamlit as st
-
 from functions import to_do
 
 # read the data
@@ -16,9 +15,8 @@ countries = df.Area.unique().tolist()
 items = df.Item.unique().tolist()
 elements = df.Element.unique().tolist()
 year = df.Year.unique().tolist()
-import streamlit_theme as stt
 
-# Set the theme to dark
+# Set the config
 st.set_page_config(layout="wide",initial_sidebar_state = "expanded")
 url = 'https://www.fao.org/faostat/en/#data/GB/visualize'
 view_raw_data = "https://raw.githubusercontent.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/main/data/Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized).csv"
