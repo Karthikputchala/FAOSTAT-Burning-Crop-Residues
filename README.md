@@ -7,11 +7,11 @@ Methane (CH4), Nitrous oxide (N2O), and Biomass are the main green house gas emi
 
 ## Screenshots
 
-![](Screenshots/Screenshot (30).png)
+![](https://github.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/blob/main/Screenshots/Screenshot%20(30).png)
 
-![](Screenshots/Screenshot (31).png)
+![](https://github.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/blob/main/Screenshots/Screenshot%20(31).png)
 
-![](Screenshots/Screenshot (32).png)
+![](https://github.com/Karthikputchala/FAOSTAT-Burning-Crop-Residues/blob/main/Screenshots/Screenshot%20(31).png)
 
 
 ## Try it Out!
