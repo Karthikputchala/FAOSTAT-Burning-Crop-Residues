@@ -7,10 +7,11 @@ Methane (CH4), Nitrous oxide (N2O), and Biomass are the main green house gas emi
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![](Screenshots/Screenshot (30).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![](Screenshots/Screenshot (31).png)
 
+![](Screenshots/Screenshot (32).png)
 
 
 ## Try it Out!
